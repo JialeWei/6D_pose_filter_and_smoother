@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bcf29b46-a082-4486-bf11-e851e826251d" name="mrt">
+        <fileTransfer accessType="SFTP" host="srv1.mrt.uni-karlsruhe.de" port="40323" sshConfigId="b01e4370-56f8-40d6-a544-fe153f2f0535" sshConfig="jiwei@srv1.mrt.uni-karlsruhe.de:40323 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
