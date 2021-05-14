@@ -9,6 +9,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="eee84fad-1e79-4dcd-9a03-c32614658664" name="aws">
+        <fileTransfer accessType="SFTP" host="ec2-3-112-201-14.ap-northeast-1.compute.amazonaws.com" port="22" sshConfigId="9875616f-2bf7-4149-a0b8-89711a258aca" sshConfig="ubuntu@ec2-3-112-201-14.ap-northeast-1.compute.amazonaws.com:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>
